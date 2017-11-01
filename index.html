@@ -3,13 +3,22 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script>
+			if ('registerElement' in document
+			  && 'createShadowRoot' in HTMLElement.prototype
+			  && 'import' in document.createElement('link')
+			  && 'content' in document.createElement('template')) {
+			  // We're using a browser with native WC support!
+			} else {
+			  document.write('<script src="https:\/\/cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.5/webcomponents.min.js"><\/script>')
+			}
+		  </script>
     <title>GreenSports</title>
 </head>
 <body class="homePage">
   <div class="wrapper">
-	  {% include header.html %}
-	<!--#include file="header.html" -->
+		<html-include src="header.html"></html-include>
 	<div class="sports">SPORTS OF <br/>THIS YEAR</div>
     <div class="products">
 	    <h2>PRODUCTS &amp; SPORTS CATEGORY</h2>
@@ -46,8 +55,7 @@
 	    <h2>OUR GALLERY</h2>
 	    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
 	</div>
-	{% include footer.html %}
-	<!--#include file="footer.html" -->
+	<html-include src="footer.html"></html-include>
   </div>
 </body>
 </html>
