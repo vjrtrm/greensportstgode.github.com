@@ -4,11 +4,18 @@ body{
     padding: 0;
     margin:0;
 }
+
+ul{
+    margin:0;
+    padding:0;
+}
+
 .homePage{
     background-image: url("../images/banner.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
 }
-.aboutusPage{
+
+.aboutusPage .header{
     background-image: url("../images/aboutus_bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -37,6 +44,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
+
 .productPage{
     background-image: url("../images/gallery_bg.jpg");
     background-repeat: no-repeat;
@@ -59,41 +67,51 @@ body{
     color: #747474;
     overflow: auto;
 }
+
 .innerContent img.tempContentImage{
     width: 100%;
 }
+
 h1{
     color: #9a0106;
 }
+
 .breadCrumb{
     display: inline-block;
     padding: 0;
     margin: 10px 0;
 }
+
 .breadCrumb li{
     display: inline-block;
 }
+
 .breadCrumb li span{
     padding: 0 5px;
 }
+
 .header{
-    margin-bottom: 230px;
+    padding-bottom: 230px;
     overflow: auto;
 }
+
 .logo{
     margin-top: 20px;
     margin-left: 240px;
     float: left;
 }
+
 .menu{
     color: white;
     margin-top: 70px;
     margin-right: 52px; 
     float: right;
  }
-.menu li{
+
+ .menu li{
     display: inline-block;
 }
+
 .menu a{
     color:white;
     padding:10px;
@@ -111,40 +129,45 @@ h1{
     font-weight:bold;
     font-size: 4rem;
 }
+
 .products{
     clear: both;
     background: #c8c8c8;
-    padding:  0 130px;
+    padding: 0 8% 2%;
     color:#000000;
     float:left;
+    text-align: center;
 }
+
 .white-bg{
     border:1px solid red;
     position: absolute;
 }
+
 .category-list li{
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 2%;
 }
+
 .products h2{
     font-size: 35pt;
     margin-top:80px;
     font-weight: normal;
-    margin-left:140px;
 }
+
 .products .discription{
     font-size: 16pt;
-    margin-left:55px;
     font-weight:200;
 }
+
 .category-list li p{
     padding:0;
     margin-top:30px;;
     font-weight:200;
     font-size: 16pt;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
+
 .category-list li a{
     text-decoration: none;
     display: inline-block;
@@ -154,127 +177,154 @@ h1{
     color: white;
     font-weight: bold; 
 }
+
 .brands{
     clear: both;
     background-color: #f5f5f5;
     float:left;
     width: 100%;
+    text-align: center;
 }
+
 .our-brands li{
     display: inline-block;
     padding: 10px 25px;
     margin-bottom: 100px;
 }
+
+.our-brands{
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
 .brands h2{
     font-size: 35pt;
     margin-top:80px;
-    font-weight: normal;
-    margin-left:480px;
+    font-weight: normal;   
     color:black;
 }
+
 .promotions{
     clear: both;
     background-image: url("../images/promotion.png");
     background-size: 100%;
     float:left;
     width: 100%;
+    text-align: center;
 }
+
 .offers li{
     display: inline-block;
-    padding: 10px 10px;
-   
+    padding: 10px 10px;   
 }
    
 .promotions h2{
     margin-top:85px;
     font-size: 35pt;
     font-weight: normal;
-    margin-left:350px;
     margin-bottom:75px;
 }
-.offers{
-    margin-left:150px;
+
+.offers{   
     margin-bottom: 115px;
 }
+
 .gallery{
     background-image: url("../images/gallery-fade.png");
     clear: both;
     float:left;
     width: 100%;
-  }
-  .gallery h2{
+    text-align: center;
+}
+
+.gallery h2{
     margin-top:275px;
     font-size: 35pt;
-    font-weight: normal;
-    margin-left:550px;  
+    font-weight: normal;     
 }
- .gallery p{
+
+.gallery p{
     font-weight:200;
     font-size: 16pt;
     margin-bottom:240px;
     margin-left:50px;
- }
- .contact{
-     clear:both;
+}
+
+.contact{
+    clear:both;
     float:left;
-     background-image: url("../images/bottom.png");
-     color:black;
-     width:100%;
+    background-image: url("../images/bottom.png");
+    background-size: 100% auto;
+    color:black;
+    width:100%;
     position:relative;
-    padding: 10px 0;
-   }
+    padding: 2% 0;
+    text-align:center;
+}
+
 .contact ul{
     float: left;
-    width: 20%;
+    width: 25%;
     padding-left: 0;
-    margin-right:50px;
 }
+
 .timings li{
     text-transform: uppercase;
 }
- .home li a{
-     text-decoration: none;
-  color: black;
-  text-transform: uppercase;
- 
- }
- .brand li a{
-    text-decoration: none; 
+
+.home li a{
+    text-decoration: none;
     color: black;
     text-transform: uppercase;
-   
- }
- .connect li a{
+}
+
+.brand li a{
+    text-decoration: none; 
+    color: black;
+    text-transform: uppercase;   
+}
+
+.connect li a{
     text-decoration: none;
     color: black;
   
- }
- .connect li img{
+}
+
+.connect li img{
      margin-right: 10px;
- }
- .image{
-     margin-top: 40px;
- }
+}
+
  .copyright{
-     clear: both;
-     float: left;
-     padding:30px 0;
+    clear: both;
+    float: left;
+    padding: 0;
     width:100%;
     text-align: center;
     color: white;
-    margin-top:80px;
- }
- .contact>div{
-    width: 80%;
+    background: #644c4f;
+}
+
+.contact>div{
+    width: 75%;
     margin: 0 auto;
- }
- .connect{
+    text-align: left;
+    overflow: auto
+}
+
+.connect{
      margin-right:0;
- }
- .contact ul li{
+}
+
+.contact ul li{
      padding: 5px 0px;
- }
- .contact .timings li:first-child{
+}
+
+.contact .timings li:first-child{
      font-weight: bold;
      padding-bottom:20px;
- }
+}
+ 
+.timings{
+     margin-top:1%
+}
