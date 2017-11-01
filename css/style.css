@@ -328,3 +328,9 @@ h1{
 .timings{
      margin-top:1%
 }
+
+@media screen and (min-width: 1400px) {
+    .homePage{
+        background-size:100% auto;   
+    }
+  }
