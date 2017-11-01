@@ -4,12 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+            if ('registerElement' in document
+                && 'createShadowRoot' in HTMLElement.prototype
+                && 'import' in document.createElement('link')
+                && 'content' in document.createElement('template')) {
+                // We're using a browser with native WC support!
+            } else {
+                document.write('<script src="https:\/\/cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.5/webcomponents.min.js"><\/script>')
+            }
+        </script>
+        <script src="html-include.min.js"></script>
     <title>GreenSports</title>
 </head>
 <body class="productPage">
   <div class="wrapper">
-    <jsp:include page="./header.html" />
-    <div class="innerContent">
+        <html-include src="header.html"></html-include>
+       <div class="innerContent">
         <ul class="breadCrumb">
             <li><a href="./index.jsp">Home</a></li>
             <li><span>/</span>Products</li>
@@ -30,7 +41,7 @@
             </div>
         </div>
     </div>
-    <jsp:include page="./footer.html" />
+    <html-include src="footer.html"></html-include>
 </div>
 </body>
 </html>
