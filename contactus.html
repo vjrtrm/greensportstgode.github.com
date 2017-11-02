@@ -18,16 +18,47 @@
     <title>GreenSports</title>
 </head>
 <body class="contactusPage">
-  <div class="wrapper">
-        <html-include src="header.html"></html-include>
+<div class="wrapper">
+    <html-include src="header.html"></html-include>
     <div class="innerContent">
         <ul class="breadCrumb">
             <li><a href="./index.html">Home</a></li>
             <li><span>/</span>Contact Us</li>
         </ul>
         <h1>CONTACT US</h1>
-        <div>
-             <img src="images/contactus_content.jpg" alt="" class="tempContentImage" />
+        <div class="row">
+            <div class="column left">
+                <p class="contact-para">IF YOU LIKE TO CONTACT SPORT INDIA YOU CAN SUBMIT<br>AN EMAIL TO ANY OF OUR TEAMS USING THE FORM BELOW.</p>
+                <p class="address">No.8,L.B Road,Adyar,Chennai,<br>Tamilnadu,India-600020.<br>(Near Adyar Signal / Adyar Anandha Bhavan Sweets)</p>
+                <p class="email">eMail:sportus@Greensports.in<br><br></p>
+                <form action="" class="contactusform">
+                    <div>
+                        <label class="red" for="Name">Name:</label>
+                        <input type="text" name="Name" id="Name" />
+                    </div>
+                    <div>
+                        <label class="red" for="Email">Email:</label>
+                        <input type="text" name="Email" id="Email" />
+                    </div>
+                    <div>
+                        <label class="red" for="subject">Subject:</label>
+                        <input type="text" name="subject" id="subject" />
+                    </div>
+                    <div>
+                        <img class="captcha" src="images/captcha.png">
+                    </div>
+                    <label class="red"> Message:</label >
+                    <textarea name="message" rows="5" cols="90"></textarea>
+                    <input type="button" class="button" value="Submit">
+                </form>
+            </div>
+            <div class="column right">
+                <ul class="column2-list" style="list-style-type:none";>
+                    <li><p class="heading">ANNUAL REPORT</p><img class="contactimg" src="images/contactus1.png" alt=""><p>Lorem Ipsum simply is simply dummy text of the printing and typesetting industry</p></li>
+                    <li><p class="heading">OUR PARTNERS</p><img class="contactimg" src="images/contactus2.png" alt=""><p>Lorem Ipsum simply is simply dummy text of the printing and typesetting industry</p></li>
+                    <li><p class="heading">OUR BRANDS</p><img class="contactimg" src="images/contactus3.png" alt=""><p>Lorem Ipsum simply is simply dummy text of the printing and typesetting industry</p></li>
+                </ul>      
+            </div>
         </div>
     </div>
     <html-include src="footer.html"></html-include>

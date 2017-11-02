@@ -64,7 +64,7 @@ ul{
 .innerContent{
     width: 80%;
     margin: 0 auto;
-    color: #747474;
+    color: black;
     overflow: auto;
 }
 
@@ -74,12 +74,13 @@ ul{
 
 h1{
     color: #9a0106;
+    text-decoration: underline gray;
 }
 
 .breadCrumb{
     display: inline-block;
     padding: 0;
-    margin: 10px 0;
+    margin: 3% 0 1%;
 }
 
 .breadCrumb li{
@@ -327,6 +328,74 @@ h1{
  
 .timings{
      margin-top:1%
+}
+
+.column {
+    float: left;
+}
+
+.left {
+  width: 75%;
+  font-weight: normal;
+}
+
+.right {
+  width: 25%;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    display:block;
+}
+
+.contact-para{
+    font-size: 20px;
+}
+
+.heading{
+    font-weight: bold;
+}
+
+.red{
+    color: #cc3333;
+}
+
+input[type=text], textarea{
+    background-color:#eee;
+    color: black;
+}
+
+input[type=text]{
+    width:70%
+}
+
+.captcha{
+    width:70%;
+}
+
+.contactimg{
+    width:80%;
+}
+
+.column2-list li{
+    padding-bottom: 4%;
+}
+
+.contactusform div{
+    float: left;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.contactusform label{
+    display: block;
 }
 
 @media screen and (min-width: 1400px) {
