@@ -398,8 +398,47 @@ input[type=text]{
     display: block;
 }
 
+.question{
+    color:red;
+}
+
+.featuredcategoryPage .row .left{
+    width: 25%;
+}
+
+.featuredcategoryPage .row .right{
+    width: 75%;
+}
+
+.featuredimg{
+    width:33%;
+}
+
+.borders {
+    border-style: none;
+    border-bottom-style: dotted;
+    border-color: grey;
+    border-width: 1px;
+    margin-top: 15%;
+    font-weight: bold;
+    font-size:18px;
+    margin-bottom: 10%;
+}
+
+
 @media screen and (min-width: 1400px) {
     .homePage{
         background-size:100% auto;   
+    }
+
+    .aboutusPage .header, 
+    .contactusPage .header, 
+    .faqPage .header, 
+    .featuredcategoryPage .header, 
+    .galleryPage .header,
+    .ourbrandsPage .header, 
+    .productPage .header{
+        height: 10em;
+        background-size: cover;
     }
   }
