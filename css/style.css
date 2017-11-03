@@ -425,6 +425,23 @@ input[type=text]{
     margin-bottom: 10%;
 }
 
+.highlight{
+    color: red;
+    text-decoration: underline gray;
+    font-size: 2em;
+    margin-right: 2%;
+}
+
+.highlight-green{
+    color:green;
+    font-size: 2em;
+    margin-right: 2%;
+}
+
+.galleryimg img{
+    width: 22%;
+    margin: 1%;
+}
 
 @media screen and (min-width: 1400px) {
     .homePage{
