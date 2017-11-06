@@ -21,31 +21,31 @@ ul{
     background-size: 100% auto;
 }
 
-.contactusPage{
+.contactusPage .header{
     background-image: url("../images/contactus_bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
-.faqPage{
+.faqPage .header{
     background-image: url("../images/faq_bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
-.featuredcategoryPage{
+.featuredcategoryPage .header{
     background-image: url("../images/featuredcategory_bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
-.galleryPage{
+.galleryPage .header{
     background-image: url("../images/gallery_bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
-.productPage{
+.productPage .header{
     background-image: url("../images/gallery_bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -55,7 +55,7 @@ ul{
     background: white;
 }
 
-.ourbrandsPage{
+.ourbrandsPage .header{
     background-image: url("../images/ourbrands_bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
