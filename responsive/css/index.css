@@ -21,8 +21,6 @@ body{
 }
 
 .menu a{
-    padding:10px;
-    font-weight: bold;
     font-size: 1rem;
 }
 
@@ -35,23 +33,20 @@ body{
     padding: 0;
 }
 .sports{
-    font-size: 5rem;
-    margin-right: 2%;
+    font-size: 3.5rem;
+    margin-right: 10%;
     margin-bottom: 12%;
 }
 
 .products{
     background: #c8c8c8;
-}
+  }
 
 .brands{
     background-color: #f5f5f5;
     padding-top: 3%;
 }
 
-.ourbrands li{
-    margin-bottom: 100px;
-}
 .carousel-indicators li{
     background-color: gray;
     width: 10px;
@@ -68,6 +63,7 @@ body{
     background-size: 100%;
     padding-top: 6%;
     padding-bottom: 1%;
+    margin-bottom: -2%;
 }
 
 .promo{
@@ -75,13 +71,12 @@ body{
     margin-bottom:7%;
 }
 
-.offers li{
-    display: inline-block;
-    padding: 10px 10px;   
+.offers img{
+    width:100%;
 }
 
 .offers{   
-    margin-bottom: 7%;
+    margin-bottom: 16%;
 }
 
 .gallery{
@@ -95,7 +90,7 @@ body{
     background-size: 100% auto;
     width: 100%;
     text-align: center;
-    padding: 2% 4% 4%;
+    padding: 1% 4% 4%;
     margin:0;
 }
 
@@ -140,7 +135,7 @@ body{
 
 .innerContent{
     margin-top: 20% !important;
-    width: 80%;
+    
     margin: 0 auto;
     overflow: auto;
 }
@@ -159,15 +154,62 @@ body{
     margin-bottom: 5%;
 }
 
-.describe li p{
-    margin-top: 10% !important;
+.describe p{
+    margin-top: 17%;
 }
 
+.bottom img{
+    width: 100%; 
+}
 
+.contactusPage{
+    background-image: url("../images/contactus_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
 
+.column2-list img{
+    width: 100%;
+}
 
+.contact-para{
+    font-size: 20px;
+}
 
+.faqPage{
+    background-image: url("../images/faq_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
 
+.ourbrandsPage{
+    background-image: url("../images/ourbrands_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.galleryPage{
+    background-image: url("../images/gallery_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.galleryimage img{
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.highlight{
+text-decoration: underline;
+text-decoration-color: 	#C0C0C0;
+font-size: 2em;
+margin-right: 2%;
+}
+
+.highlight-green{
+    margin-right: 2%;
+    font-size: 2em;
+}
 
 
 
@@ -191,8 +233,8 @@ body{
     }
     .sports{
         font-size: 10px;
-        padding: 0 10% 0 0;
-        margin: -8% 0 0;
+        padding: 0 15% 0 0;
+        margin: -9% 0 13%;
         position: relative;
     }
     .header{
@@ -205,12 +247,18 @@ body{
         background-size: cover;
     }
 
-    h2{
+    h3{
         font-size: 1rem;
     }
 
+    h2{
+        font-size: 1.3rem;
+    }
+
+   
+
     p{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .brands .p-5{
@@ -229,21 +277,8 @@ body{
         font-size: 1rem;
      }
 
-    .category-list img{
-        width: 100%;
-    }
-     .category-list .btn{
-         font-size: 0.5rem;
-         margin-bottom: 12% !important;
-    }
-
-    .products .p-5{
-        padding-bottom: 1% !important;
-        padding-top: 5% !important;
-    }
-
-    .offers img{
-        width: 50% !important;
+    .category-list .btn{
+        margin-bottom: 12% !important;
     }
 
     .timings img{
@@ -255,11 +290,32 @@ body{
     }
 
     .innerContent{
-        margin-top: -3% !important;
+        margin-top: -2% !important;
     }
 
     .heading{
         margin-top: -5%;
+    }
+
+    .describe p{
+        margin-top: 5%;
+    }
+
+    .contact-para{
+        font-size: 0.8rem;
+    }
+
+    .column2-list{
+        margin-top: 4%;
+        padding-left: 1%;
+    }
+
+    .submit{
+        margin-left: 35%;
+    }
+
+    .brandimg img{
+        padding-left: 15%;
     }
 
 }
